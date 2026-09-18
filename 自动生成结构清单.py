@@ -11,7 +11,7 @@ TARGET_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = f"{TARGET_DIR.name}_结构清单.txt"
 
 # 最大扫描深度：默认 3 层。如果需要更深，可以自行调大
-MAX_DEPTH = 100                        
+MAX_DEPTH = 3                        
 
 # 【视觉装订线配置区】在此处一键切换您最喜欢的首尾识别线样式
 # 样式 1（原版经典型）："========================================="
